@@ -1,0 +1,47 @@
+__________________________V1__________________________ 26/02/2022
+* Initial release
+
+
+__________________________V2__________________________ 21/03/2022
+* Added option to rename the output file, when overwriting is needed.
+* Added About section
+* Added working modes (Normal and Shortcut)
+   * Added toggle button for working modes
+
+
+_________________________V2.1_________________________ 25/03/2022
+* Corrected several bugs related to working modes
+* Corrected several bugs and glitches related to overwriting
+* Corrected several bugs related to "Other app"
+
+
+__________________________V3__________________________ 02/04/2022
+* Added new working mode: Project
+   * This working mode will open the current folder as a project;
+   * As Notepad can't open folders as projects, this new working mode
+   is disabled for it.
+* Corrected a bug related to Overwriting.
+* Changed the $ input sign to >>
+* Redesigned the whole program.
+   * Primary choices will be ran with a number;
+   * Secondary choices will be ran with a letter.
+* Changed command prefix front slash (/) to the subtraction symbol (-).
+* Added go back command option in the "Other app" menu.
+* Added caption for when fields are left blank.
+* Optimized the code.
+
+
+__________________________V4__________________________ 27/12/2022
+* Removed a working mode: Normal
+  * Shortcut already does the trick ;)
+* Reduced the script size by half
+  * Used calling to reduce repeated code
+  * Upgraded the code to reduce repeated code on file creation.
+* Corrected bugs:
+  * Bugs related to this version
+  * Bugs related with directories and file names with spaces
+* New pre-defined text editing app: VS Code!
+* Redesigned the whole "UI". Now sinced with SPOTdl's UI.
+  * Help file is now more detailed.
+  * Titles on all menus
+  * Neat spacings
